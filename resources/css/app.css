@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+td, th {
+  @apply text-start border border-neutral-500 p-2;
+}
+
+tr:nth-child(even) {
+  @apply bg-neutral-200;
+}
